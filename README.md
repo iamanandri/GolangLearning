@@ -3,6 +3,8 @@ Hello, everyone, this is just me trying out, learning and playing around with Go
 
 Things are probably moved from here to its own repo depending on the project
 
+You gotta have [Go](https://go.dev/dl/) in your system to test out the programs and stuff.
+
 The materials I'm learning from:
 - [An Introduction to Programming in Go](https://www.golang-book.com/books/intro)
 - [Go By Example](https://gobyexample.com)
