@@ -18,5 +18,5 @@ func average(x []float64) float64 {
 		total += x[i]
 	}
 
-	return (total / 5)
+	return (total / float64(len(x)))
 }
