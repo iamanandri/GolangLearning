@@ -6,16 +6,16 @@ func main() {
 	//Series of numbers
 	numbers := []float64{98, 93, 77, 82, 83}
 
-	average := average(numbers)
+	//average := average(numbers)
 
-	fmt.Printf("The average is: %f", average)
+	fmt.Printf("The average is: %f", average(numbers))
 }
 
 func average(x []float64) float64 {
 	var total float64
 
-	for i := 0; i < len(x); i++ {
-		total += x[i]
+	for _, v := range x {
+		total += v
 	}
 
 	return (total / float64(len(x)))
